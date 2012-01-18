@@ -41,7 +41,7 @@ namespace Clamson.Tests.Clamd
     class ClamdClientTests
     {
         //Change these to fit your setup
-        private string baseTestDir = @"C:\foliofn\clamson_tests";
+        private string baseTestDir = @"C:\clamson_tests";
         private string clamdServer = "127.0.0.1";
         private int clamdPort = 3310;
 
