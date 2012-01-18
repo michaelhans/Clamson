@@ -6,7 +6,7 @@ Clamson provides a simple C# API to the ClamAV daemon (clamd) via TCP.
 Usage
 -----
 
-'''
+```
 //Instantiating the Client
 //Server and Port
 var clamd = new ClamdClient(“some-server”, 3310);
@@ -40,7 +40,8 @@ var result = clamd.MultiScan(fileOrDirectoryName);
 
 //SHUTDOWN Command
 clamd.Shutdown();         
-'''
+```
+
 Usage Non-Blocking - Wrap in a Task (Clamson was written at warp speed! Iterate/Evolve)
 
 Required Runtime
